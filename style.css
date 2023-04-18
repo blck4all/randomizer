@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 51, 51);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+main button {
+    background-color: rgb(127, 249, 255);
+    font-style: oblique;
+    color: black;
+    padding: 10px;
+}
+.selectedSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.selectedSection div {
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+    margin: 5px;
+    background-color: rgb(237, 99, 205);
+    color: white;
+}
+.container div {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+    margin: 5px;
+    background-color: rgb(105, 48, 145);
+    color: white;
+}
